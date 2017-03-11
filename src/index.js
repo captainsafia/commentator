@@ -28,9 +28,13 @@ function makeBlockComment(comment, fileExtension) {
 function makeInlineComment(comment, fileExtension) {
   const inlineComment = commentStyles[fileExtension]['inline'];
   const lines = comment.split('\n');
-  return lines.map(function(line) {
-    return inlineComment + line;
-  }).join('\n');
+  if (inlineComment) {
+    return lines.map(function(line) {
+      return inlineComment + line;
+    }).join('\n');
+  } else {
+    throw new Error('Inline comments not available for', fileExtension, 'files.');
+  }
 }
 
 module.exports = {
