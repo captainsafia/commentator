@@ -14,7 +14,7 @@ const commentStyles = {
     end: '=end',
     inline: '# '
   },
-  'hs, lhs': {
+  'hs, lhs, purs': {
     start: '{-',
     end: '-}',
     inline: '--'
