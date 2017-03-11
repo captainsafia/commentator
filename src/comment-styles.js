@@ -24,6 +24,12 @@ const commentStyles = {
   },
   'rs': {
     inline: '//'
+  },
+  'bash, ksh, mksh, csh, tsh, sh, nginx': {
+    inline: '#'
+  },
+  'scm, rkt, clj, lisp, cl': {
+    inline: ';'
   }
 };
 
