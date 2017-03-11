@@ -1,6 +1,6 @@
 {
   "name": "@captainsafia/commentator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Create a comment string for a given language",
   "main": "src/index.js",
   "scripts": {
