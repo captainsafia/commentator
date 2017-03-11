@@ -14,7 +14,7 @@ const commentStyles = {
     end: '=end',
     inline: '# '
   },
-  'hs, lhs': {
+  'hs, lhs, purs': {
     start: '{-',
     end: '-}',
     inline: '--'
@@ -28,6 +28,12 @@ const commentStyles = {
   'html, xml': {
     start: '<!--',
     end: '-->',
+  },
+  'bash, ksh, mksh, csh, tsh, sh, nginx': {
+    inline: '#'
+  },
+  'scm, rkt, clj, lisp, cl': {
+    inline: ';'
   }
 };
 
