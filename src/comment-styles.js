@@ -25,6 +25,10 @@ const commentStyles = {
   'rs': {
     inline: '//'
   },
+  'html, xml': {
+    start: '<!--',
+    end: '-->',
+  },
   'bash, ksh, mksh, csh, tsh, sh, nginx': {
     inline: '#'
   },
