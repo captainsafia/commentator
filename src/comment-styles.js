@@ -24,6 +24,10 @@ const commentStyles = {
   },
   'rs': {
     inline: '//'
+  },
+  'html, xml': {
+    start: '<!--',
+    end: '-->',
   }
 };
 
