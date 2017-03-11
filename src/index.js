@@ -21,7 +21,7 @@ function makeBlockComment(comment, fileExtension) {
   if (startComment && endComment) {
     return startComment + '\n' + comment + '\n' + endComment;
   } else {
-    throw new Error('Block comments not available for', fileExtension, 'files.');
+    throw new Error('Block comments not available for ' + fileExtension + ' files.');
   }
 }
 
@@ -33,7 +33,7 @@ function makeInlineComment(comment, fileExtension) {
       return inlineComment + line;
     }).join('\n');
   } else {
-    throw new Error('Inline comments not available for', fileExtension, 'files.');
+    throw new Error('Inline comments not available for ' + fileExtension + ' files.');
   }
 }
 
