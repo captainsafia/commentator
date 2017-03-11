@@ -1,0 +1,30 @@
+{
+  "name": "@captainsafia/commentator",
+  "version": "1.0.0",
+  "description": "Create a comment string for a given language",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/captainsafia/commentator.git"
+  },
+  "keywords": [
+    "utilities",
+    "commentator"
+  ],
+  "author": "Safia Abdalla <safia@safia.rocks>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/captainsafia/commentator/issues"
+  },
+  "homepage": "https://github.com/captainsafia/commentator#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
