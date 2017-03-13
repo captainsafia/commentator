@@ -34,6 +34,11 @@ const commentStyles = {
   },
   'scm, rkt, clj, lisp, cl': {
     inline: ';'
+  },
+  'powershell': {
+    start: '<#',
+    end: '#>',
+    inline: '#'
   }
 };
 
