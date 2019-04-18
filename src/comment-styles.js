@@ -1,5 +1,5 @@
 const commentStyles = {
-  'cs, css, sass, mm, h, m, js, java, c, cpp, swift, php, go': {
+  'cs, css, sass, mm, h, hpp, hh, hxx, m, js, java, c, cpp, cc, cxx, swift, php, go': {
     start: '/*',
     end: '*/',
     inline: '// ' 
